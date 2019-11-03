@@ -4,9 +4,7 @@ Bluepwn은 대학 연합 정보보안 커뮤니티 SUA (SecurityPlus Union Acade
 
 ## CVE-2017-0785 PoC
 
-Armis에서 발표한 안드로이드 메모리 정보 유출 취약점에 대한 PoC 스크립트입니다.
-
-자세한 정보: https://www.armis.com/blueborne/
+Armis에서 발표한 취약점 중 안드로이드 메모리 정보 유출 취약점에 대한 PoC 스크립트입니다.
 
 PoC를 실행하려면 `pybluez`와 `pwntools`를 설치해야 합니다.
 
@@ -15,3 +13,8 @@ sudo apt-get install bluetooth libbluetooth-dev
 sudo pip install pybluez
 sudo pip install pwntools
 ```
+> Ubuntu 16.04 환경에서 실행 테스트 했습니다.
+
+나머지 취약점에 대한 정보는 아래 링크를 참고하세요.
+
+자세한 정보: https://www.armis.com/blueborne/
